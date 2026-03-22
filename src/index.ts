@@ -367,6 +367,6 @@ export default function gitVersion(options: GitVersionOptions = {}): Plugin {
   }
 
   return {
-    name: 'vite-plugin-git-version'
+    name: 'vite-plugin-git-semver'
   }
 }

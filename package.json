@@ -1,5 +1,5 @@
 {
-  "name": "vite-plugin-git-version",
+  "name": "vite-plugin-git-semver",
   "version": "1.0.0",
   "description": "Vite plugin for Git-based version management with semver support",
   "type": "module",
@@ -51,7 +51,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tayne3/vite-plugin-git-version"
+    "url": "https://github.com/tayne3/vite-plugin-git-semver"
   },
-  "homepage": "https://github.com/tayne3/vite-plugin-git-version#readme"
+  "homepage": "https://github.com/tayne3/vite-plugin-git-semver#readme"
 }

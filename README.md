@@ -1,4 +1,4 @@
-# vite-plugin-git-version
+# vite-plugin-git-semver
 
 Vite plugin for Git-based version management with semver support.
 
@@ -13,11 +13,11 @@ Vite plugin for Git-based version management with semver support.
 ## Installation
 
 ```bash
-npm install -D vite-plugin-git-version
+npm install -D vite-plugin-git-semver
 # or
-pnpm add -D vite-plugin-git-version
+pnpm add -D vite-plugin-git-semver
 # or
-yarn add -D vite-plugin-git-version
+yarn add -D vite-plugin-git-semver
 ```
 
 ## Usage
@@ -27,7 +27,7 @@ yarn add -D vite-plugin-git-version
 ```typescript
 // vite.config.ts
 import { defineConfig } from "vite";
-import gitVersion, { getVersionInfo } from "vite-plugin-git-version";
+import gitVersion, { getVersionInfo } from "vite-plugin-git-semver";
 
 export default defineConfig({
   plugins: [
@@ -54,7 +54,7 @@ console.log(__APP_VERSION__); // "1.2.3-dev.5+abc1234"
 ```typescript
 // vite.config.ts
 import { defineConfig } from "vite";
-import gitVersion, { getVersionInfo } from "vite-plugin-git-version";
+import gitVersion, { getVersionInfo } from "vite-plugin-git-semver";
 
 export default defineConfig({
   plugins: [
